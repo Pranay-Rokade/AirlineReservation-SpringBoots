@@ -28,7 +28,8 @@ It utilizes Spring Boot for REST APIs, Java 21 as the programming language, Mave
     "id": "a5",
     "source": "south korea",
     "destination": "mumbai",
-    "departureTime": "2025-03-21T08:30:00"
+    "departureTime": "2025-03-21T10:00:00",
+    "arrivalTime": "2025-03-21T10:00:00"
   }
   ```
 - **Screenshot:**
