@@ -18,7 +18,7 @@ public class FlightRepository {
     public void init(){
         flightsTable = new HashMap<>();
         Flight fl = new Flight("a1","nagpur","south korea", LocalDateTime.parse("2025-03-21T10:00:00"),LocalDateTime.parse("2025-03-21T10:00:00"));
-        flightsTable.put("1",fl);
+        flightsTable.put("a1",fl);
     }
 
     public List<Flight> getAllFlights(@RequestParam(required = false, defaultValue = "asc", name = "sort") String sort){

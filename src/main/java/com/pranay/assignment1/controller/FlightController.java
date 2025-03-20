@@ -20,7 +20,7 @@ public class FlightController {
         return flightService.getAllFlights(sort);
     }
 
-    @PostMapping()
+    @PostMapping("/add")
     Flight createFlight(@RequestBody Flight flight){
         return flightService.addFlight(flight);
     }
